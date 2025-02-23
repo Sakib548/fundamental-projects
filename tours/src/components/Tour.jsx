@@ -16,7 +16,7 @@ const Tour = ({ id, name, info, image, price, removeTour }) => {
             className="info-btn"
             onClick={() => setIsReadMore(!isReadMore)}
           >
-            {isReadMore ? "Show Less" : "Read More"}
+            {isReadMore ? "Show Less..." : "Read More..."}
           </button>
         </p>
 
